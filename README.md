@@ -16,6 +16,8 @@ Playbook to understand cryptograpghy using Nodejs crypto package
 
 # Basic Client-Server Flow
 Below diagram is a conceptual representation of how CIAR works together
+![](/images/Basic Crypto Flow.png)
+Format: ![Alt Text](url)
 
 This is implemented using Nodejs crypto package in crypto-flow.ts
 
