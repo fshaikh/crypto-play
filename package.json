@@ -1,0 +1,22 @@
+{
+  "name": "affinity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^19.2.0",
+    "@types/atob": "^2.1.2",
+    "@types/btoa": "^1.2.3",
+    "@types/node": "^14.0.27",
+    "atob": "^2.1.2",
+    "axios": "^0.19.2",
+    "btoa": "^1.2.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "start-server": "ts-node server/server.ts",
+    "start-client": "ts-node client.ts",
+    "start-flow": "ts-node crypto-flow.ts"
+  }
+}
